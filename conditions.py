@@ -14,10 +14,17 @@ if age < 16 or age > 65:
 else:
     print("Have a good day at work")
 
-for i in range(101):
-    if i % 7 == 0:
-        print(i)
+# for i in range(101):
+#     if i % 7 == 0:
+#         print(i)
 
-for i in range(0,101,7):
-    if i % 7 == 0:
+# for i in range(0,101,7):
+#     if i > 0 and i % 11 == 0:
+#         break
+#     print(i)
+
+for i in range(0, 100, 7):
+    if i % 11 == 0:
         print(i)
+        break
+    print(i)
